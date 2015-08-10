@@ -30,8 +30,9 @@ void draw() {
   ellipse(80, 300, 50, 50);
 
   if ((mousePressed) && (mouseX < 90) && (mouseX > 75) && (250 < mouseY) && (mouseY < 350)) {
+//if mouse is within a square on x-axis 75 and 90, and on y-axis 250 and 350.    
     for (int i=0; i<7; i++);
-    
+//beginning of loop, evaluate if true, if not true then will not work, keep going    
     tint(255, 255, 255, a);
     image(mySleep, 240, 192);
     if (a<255) {
